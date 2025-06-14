@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2.0,
+    "id": "insights",
+    "type": "widget",
+    "name": "Assistente de I.A Techlead",
+    "namespace": "InsightsNamespace",
+    "version": "2.0",
+    "author": "Ruan Monteiro",
+    "description": "Assistente de IA para Zabbix NOC.",
+    "widget": {
+        "js_class": "WidgetInsightsJs",
+        "view": "class.widget"
+    },
+    "assets": {
+        "js": ["class.widget.php.js"],
+        "css": ["widget.css"]
+    },
+    "homepage": "ccaceresoln.com",
+    "support": {
+        "email": "montruan19@gmail.com",
+        "url": "ruan.monteiro@techlead.com.br"
+    }
+}
